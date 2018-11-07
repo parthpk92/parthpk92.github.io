@@ -1,3 +1,5 @@
+<!-- layout: priority grid | markup: flat-hierarchy -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -11,16 +13,127 @@
   <meta name="twitter:" content="twitter.com/zeParth">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- links=========================================================================================== -->
-  <link rel="stylesheet" href="css/stylesheet-3.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:700|Lato" rel="stylesheet">
   <!-- <base href="https://parthpk92.github.com/" target="_self"> -->
   </head>
 <body>
-  <ul>
-    <li>
-      <a href="index-1.html" target="_blank">layout 1</a>
-    </li>
-    <li>
-      <a href="index-3.html" target="_blank">layout 2</a>
-    </li>
-  </ul>
+  <!-- main navigation via static top bar============================================================== -->
+  <nav class="nav-bar">
+    <a href="index.html" class="nav-title">/parth</a>
+    <div class="nav-links">
+      <a href="index.html" id="active-nav">Work</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <!-- container for the main content================================================================== -->
+  <div class="outer-wrapper">
+    <!-- personal intro========================================================================================= -->
+    <header id="personal-intro">
+      <h1>Hi, I'm Parth</h1>
+      <p class="caption-font">I'm a Product Designer based in India. <br>I started my career with TinyOwl and then went on to work with the Directi group on their Zeta and Kapow products. Below, you can find some of my best work…</p>
+    </header>
+
+    <!-- kapow intro============================================================================== -->
+    <h4 id="header-kapow">Projects for Kapow</h4>
+
+    <!-- kapow v1================================================================================== -->
+    <a href="kapow/v1" id="kapow-v1" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Kapow version 1">
+        <div class="card-content">
+          <h3>Kapow v1</h3>
+          <p>A social gaming app launched in 2016, Kapow catered to casual gamers on mobile devices. On this project, I worked on the IA and user journeys, created wireframes and tested prototypes, and contributed in the visual design and branding for the app.</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- kapow tournaments and bolly wars========================================================== -->
+    <div id="kapow-secondary">
+      <a href="kapow/tournaments" id="kapow-tournaments" class="project-group">
+        <div>
+          <img src="images/img-template-project.png" alt="Kapow tournaments">
+          <div class="card-content">
+            <h3>Tournaments</h3>
+            <p>Bringing competition to the forefront of the Kapow gaming experience</p>
+          </div>
+        </div>
+      </a>
+      <a href="kapow/bolly-wars" id="kapow-bolly-wars" class="project-group project-4col">
+        <div>
+          <img src="images/img-template-project.png" alt="Bolly Wars">
+          <div class="card-content">
+            <h3>Bolly Wars</h3>
+            <p>Banter-turned-serious game idea inspired from the cult of Bollywood</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- zeta intro============================================================================== -->
+    <h4 id="header-zeta">Projects for Zeta</h4>
+
+    <!-- zeta lta================================================================================= -->
+    <a href="zeta/lta" id="zeta-lta" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Zeta LTA Claims">
+        <div class="card-content">
+          <h3>LTA Tax Exemptions</h3>
+          <p>A first-of-its-kind digital product to claim tax benefits eligible under the leave travel allowance guidelines</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- zeta spotlight=========================================================================== -->
+    <a href="zeta/spotlight" id="zeta-spotlight" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Zeta Spotlight Gifting">
+        <div class="card-content">
+          <h3>Spotlight Gifting</h3>
+          <p>A delightful and customizable product to fulfil various corporate gifting use cases</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- zeta intro============================================================================== -->
+    <h4 id="header-other">Other things I've worked on</h4>
+
+    <!-- TO live tracking========================================================================== -->
+    <a href="tinyowl/live-tracking" id="to-live-tracking" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Live Tracking">
+        <div class="card-content">
+          <h3>Live Tracking</h3>
+          <p>Improving the post-order user experience for TinyOwl - a food-delivery app</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- iconography================================================================================ -->
+    <a href="others/iconography" id="side-iconography" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Iconography">
+        <div class="card-content">
+          <h3>Iconography</h3>
+          <p>Drew some icons and illustrations while working on a project</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- data viz================================================================================ -->
+    <a href="others/data-viz" id="side-data-viz" class="project-group">
+      <div>
+        <img src="images/img-template-project.png" alt="Data Viz">
+        <div class="card-content">
+          <h3>Data Viz</h3>
+          <p>Learning data visualizations while trying to better my fantasy football rank</p>
+        </div>
+      </div>
+    </a>
+
+    <!-- footer -->
+    <footer></footer>
+  </div>
+</body>
+</html>
