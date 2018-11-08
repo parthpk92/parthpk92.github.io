@@ -2,10 +2,12 @@
 :root {
   --text-gray-1: #2b2b2b;
   --text-gray-2: #606060;
+  --text-gray-3: #b8b8b8;
+  --hover-bg-gray: #f3f3f3;
   --max-width: 1080px;
 }
 
-/* basics (margin and fonts) */
+/* basics (margin and params)======================================================= */
 body {
   margin: 0;
 
@@ -32,12 +34,15 @@ h2 {
 h3 {
   font-size: 1.25em;
 }
+h4 {
+  font-size: 1em;
+  color: var(--text-gray-3);
+}
 p {
   margin: 0;
-  line-height: 1.4em;
+  /* font size already defined in body as 16px (1em) */
+  line-height: 1.5em;
 }
-
-/* general formatting basics */
 a {
   text-decoration: none;
 }
@@ -47,7 +52,7 @@ img {
   border-radius: 4px;
 }
 
-/* navigation bar */
+/* navigation bar=================================================================== */
 .nav-bar {
   display: flex;
   align-items: center;
@@ -65,7 +70,7 @@ img {
 
   text-transform: uppercase;
 
-  color: #b8b8b8; /*color variable to be added */
+  color: var(--text-gray-3);
 
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25em;
@@ -83,7 +88,7 @@ img {
 
   text-transform: uppercase;
 
-  color: #b8b8b8; /*color variable to be added */
+  color: var(--text-gray-3);
 
   font-family: 'Work Sans', sans-serif;
   font-size: 0.9em;
@@ -91,7 +96,7 @@ img {
 }
 .nav-links a:hover {
   color: var(--text-gray-1);
-  border-bottom: 2px solid #444444;
+  border-bottom: 2px solid var(--text-gray-1);
 }
 #active-nav {
   cursor: default;
@@ -109,59 +114,56 @@ img {
   margin: auto;
 
   grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 32px;
-  grid-row-gap: 40px;
-  /* grid-template-rows: repeat(infinite, 24px);
-  grid-row-gap: 8px; */
+  grid-column-gap: 2em;
+  grid-row-gap: 2.5em;
 }
 
-/* intro header rules*/
+/* intro header rules=============================================================== */
+/* spacing and font rules which are common to all headers across all pages */
 header {
-  margin: 120px 0 80px;
-}
-#personal-intro {
-  grid-column: 1/13;
-  grid-row: 1;
+  margin: 7.5em 0 5em;
 }
 .caption-font {
-  margin: 8px 0 0 0;
+  margin: 0.5em 0 0 0;
 
   font-size: 1.25em;
   line-height: 1.5em;
 }
-
-/* project listing layout */
-/* .section-header {
+/* grid placement rules which are specific to the personal intro div (for now) */
+#personal-intro {
   grid-column: 1/13;
-  margin: 60px 0 24px 0;
-} */
+  grid-row: 1;
+}
 
-/* changing font color from link blue to gray */
+/* specific to the home page======================================================== */
+
+/* project listing layout=========================================================== */
+/* various display params related to the project card */
 .project-group {
   color: var(--text-gray-2);
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 1.5em;
 }
 .project-group div {
-  border-radius: 4px;
+  border-radius: 0.25em;
 }
 .project-group :hover {
-  background-color: #f3f3f3;
-  /* border: 2px solid #eeeeee; */
+  background-color: var(--hover-bg-gray);
 }
 .card-content {
-  padding: 8px;
+  padding: 0.5em;
 }
-
+.card-content p {
+  margin-top: 0.25em;
+}
+/* placement rules for grid elements */
 #header-kapow {
   position: relative;
-  top: 24px;
-  color: #b8b8b8;
-  margin: 0;
+  top: 1.5em;
   grid-column: 1/13;
   grid-row: 2;
 }
-#kapow-v1 {
+#kapow-primary {
   grid-column: 1/9;
   grid-row: 3;
 }
@@ -169,12 +171,9 @@ header {
   grid-column: 9/13;
   grid-row: 3;
 }
-
 #header-zeta {
   position: relative;
-  top: 24px;
-  color: #b8b8b8;
-  margin: 0;
+  top: 1.5em;
   grid-column: 1/13;
   grid-row: 4;
 }
@@ -186,12 +185,9 @@ header {
   grid-column: 7/13;
   grid-row: 5;
 }
-
 #header-other {
   position: relative;
-  top: 24px;
-  color: #b8b8b8;
-  margin: 0;
+  top: 1.5em;
   grid-column: 1/13;
   grid-row: 6;
 }
