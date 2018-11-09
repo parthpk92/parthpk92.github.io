@@ -28,17 +28,23 @@
 
   <!-- container for the main content================================================================== -->
   <article class="outer-wrapper">
-    <!-- article header and cover image =============================================================== -->
+    <!-- article header =============================================================================== -->
     <header class="article-header">
       <h1>Digital LTA Claims</h1>
       <p class="caption-font">A first-of-its-kind digital product to claim tax benefits eligible under the leave travel allowance guidelines</p>
     </header>
+
+    <!-- cover image ================================================================================== -->
     <figure class="article-cover-image">
       <img src="images/img-template-project.png" alt="LTA Tax Exemptions">
     </figure>
+
+    <!-- article intro =============================================================================== -->
     <section class="article-intro">
       <p class="caption-font">Leave Travel Allowance (LTA) is an income tax (IT) exemption available to salaried employees in India, by which the expense incurred for vacations in India is exempt from taxation. Although great in theory, arcane rules and a tedious process meant that very few people actually claimed LTA.<br><br>My task was to design a first-of-its-kind digital product which simplified the process of claiming tax benefits eligible under the LTA guidelines.</p>
     </section>
+
+    <!-- section 1: existing =============================================================================== -->
     <section id="lta-existing">
       <h2>Existing product</h2>
       <p class="article-text">I started out by thoroughly reading the rules governing LTA claims and also chatting with employees to get a good context. In my study, the main hurdles I observed were:</p>
@@ -58,16 +64,20 @@
       <img src="images/img-template-project.png" alt="Physical LTA Form">
       <figcaption>A physical LTA claims form</figcaption>
     </figure>
+
+    <!-- section 2: designing =============================================================================== -->
     <section id="designing-lta">
       <h2>Designing digital LTA claims</h2>
       <p class="article-text">The complete flow from submitting a claim, to processing it to and communicating the outcome to the user needed to be designed. From my study, it was also clear that user education and transparency was necessary</p>
       <p>We tested out two iterations based on two different hypotheses:</p>
     </section>
+
+    <!-- iteration 1 ul and images ========================================================================== -->
     <section id="lta-iter-1">
       <h3>Iteration 1: Simply upload</h3>
       <p class="article-text">In this iteration, the focus was on eliminating the hassle of the physical process. The employee wouldn't have to bother with any mundane form-filling. The process:</p>
       <ul>
-        <li><p>Employee simply uploads all the tickets and documents</p></li>
+        <li><p>Employee simply uploads all the tickets and documents related to the trip.</p></li>
         <li><p>Zeta’s claim-processing team takes care of entering the journey and traveller info and other details. Post that, the claim is processed.</p></li>
       </ul>
     </section>
@@ -83,6 +93,8 @@
       <img src="images/img-template-project.png" alt="Claim processing">
       <figcaption>Claim processed by Zeta's team</figcaption>
     </figure>
+
+    <!-- iteration 2 ul and images ========================================================================== -->
     <section id="lta-iter-2">
       <h3>Iteration 2: Itinerary-based flow</h3>
       <p class="article-text">Here, we concentrated on reducing the cognitive effort by removing any ambiguity about the documents to be uploaded.</p>
@@ -108,20 +120,96 @@
       <img src="images/mobile-placeholder.png" alt="Document upload screen">
       <figcaption>Document upload screen</figcaption>
     </figure>
-    <section id="lta-iter-comparison">
-      <h3>Testing it out</h3>
-      <p class="article-text">The process:</p>
+
+    <!-- testing them out ============================================================================ -->
+    <section id="lta-iter-test">
+      <h3>Testing them out</h3>
+      <!-- <p class="article-text">A qualitative The process:</p> -->
       <ul>
         <li>
-          <p>The test was carried out amongst Directi employees across engineering, design, marketing, sales and HR departments.</p>
+          <p><strong>Candidates:</strong><br>Directi employees - working with other business units - across engineering, design, marketing, sales and HR departments.</p>
         </li>
         <li>
-          <p>I asked employees about their recent travels in India, informed them what LTA was (in case they weren’t aware) and asked them to go about filing a claim on a prototype app presented to them.</p>
+          <p><strong>The test:</strong><br>A qualitative, task-based test was what I chose to got with since I needed insights on the 'whats' and 'whys' of the two iterations.</p>
+            <ul>
+              <li><p>I asked employees about their recent travels in India, informed them what LTA was (in case they weren’t aware) and asked them to go about filing a claim on a prototype app presented to them.</p>
+              </li>
+              <li><p>For Zeta’s claim-processing team, we had a few sample tasks and documents corresponding with what employees would enter in each iteration.</p>
+              </li>
+            </ul>
         </li>
         <li>
-          <p>For Zeta’s claim-processing team, we had a few sample tasks and documents corresponding with what employees would enter in each iteration.</p>
+          <p><strong>What I looked for:</strong><br>The primary goal was to see whether the employees uploaded all the required documents successfully. The ease with which they did this was what I was observing. A secondary goal was to see how well they understood any unconventional rules and tax calculations they encountered.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="lta-iter-1-test">
+      <h4>The first iteration</h4>
+      <ul>
+        <li>
+          <p><strong>Employees were unsure of which documents to upload</strong> (even though a basic checklist list was provided in-app). Even after uploading the documents, they weren’t confident that they had gotten everything right.</p>
+        </li>
+        <li>
+          <p><strong>Zeta’s processing team took significantly longer to fill in the details</strong> as compared to other IT claims. They also had very valid questions regarding liability - specifically, what would happen in case they incorrectly transcribed some info while filling the forms.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="lta-iter-2-test">
+      <h4>The second iteration</h4>
+      <ul>
+        <li>
+          <p><strong>Employees quickly entered the trip and traveller info</strong> and proceeded ahead. No hesitation here.</p>
+        </li>
+        <li>
+          <p><strong>On seeing a specific list of documents, employees confidently proceeded to upload them</strong> - signs of relief were apparent on the faces of those who had used the first interface earlier (verbal expressions of comprehension like “Ah!” were a common occurence)</p>
+        </li>
+        <li>
+          <p><strong>Zeta’s processing team loved this model as they only had to verify the info</strong> entered by the employee against the documents submitted and not actually fill the form themselves.</p>
+        </li>
+      </ul>
+    </section>
+    <section id="lta-test-conclusion">
+      <p class="caption-font">Clearly, the itinerary-based model performed better with employees as well as Zeta’s processing team. It also made better business sense - as it meant less processing time for Zeta's team.</p>
+    </section>
+
+    <!-- complete flow ============================================================================ -->
+    <section id="complete-flow">
+      <hr>
+      <h4>Complete employee-side flow</h2>
+    </section>
+    <figure id="flow-img-1">
+      <img src="images/mobile-placeholder.png" alt="LTA card">
+      <figcaption>1. LTA card</figcaption>
+    </figure>
+    <figure id="flow-img-2">
+      <img src="images/mobile-placeholder.png" alt="The tip">
+      <figcaption>2. Tip displayed at start</figcaption>
+    </figure>
+    <figure id="flow-img-3">
+      <img src="images/mobile-placeholder.png" alt="Trip info">
+      <figcaption>3. Trip info</figcaption>
+    </figure>
+    <figure id="flow-img-4">
+      <img src="images/mobile-placeholder.png" alt="Traveller info">
+      <figcaption>4. Traveller info</figcaption>
+    </figure>
+    <figure id="flow-img-5">
+      <img src="images/mobile-placeholder.png" alt="Documents needed">
+      <figcaption>5. Documents needed</figcaption>
+    </figure>
+    <figure id="flow-img-6">
+      <img src="images/mobile-placeholder.png" alt="Documents uploaded">
+      <figcaption>6. Documents uploaded</figcaption>
+    </figure>
+    <figure id="flow-img-7">
+      <img src="images/mobile-placeholder.png" alt="In progress">
+      <figcaption>6. In progress</figcaption>
+    </figure>
+    <figure id="flow-img-8">
+      <img src="images/mobile-placeholder.png" alt="Claim processed">
+      <figcaption>8. Claim processed</figcaption>
+    </figure>
+    <hr id="complete-flow-end">
   </article>
-      </li>
-    </ul>
 </body>
 </html>
