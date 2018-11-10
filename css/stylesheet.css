@@ -82,6 +82,10 @@ ul li::before {
 
 a {
   text-decoration: none;
+  color: var(--text-gray-2);
+}
+p a, li a {
+  border-bottom: 2px dotted var(--text-gray-3);
 }
 img {
   width: 100%;
