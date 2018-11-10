@@ -3,7 +3,7 @@
   --highlight-1: #f37430;
   --text-gray-1: #2b2b2b;
   --text-gray-2: #606060;
-  --text-gray-3: #b8b8b8;
+  --text-gray-3: #a0a0a0;
   --hover-bg-gray: #f3f3f3;
   --max-width: 940px;
 }
@@ -16,9 +16,6 @@ body {
 
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-}
-article {
-  padding-bottom: 20em;
 }
 h1, h2, h3, h4 {
   margin: 0;
@@ -149,7 +146,37 @@ figure {
   border-bottom: 2px solid var(--text-gray-1);
 }
 
-/* container layout basics */
+/* footer========================================================== */
+footer {
+  width: 100%;
+  margin: 10em 0 0;
+  background-color: var(--hover-bg-gray);
+  padding: 2em 0;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 88%;
+  max-width: var(--max-width);
+  margin: auto;
+}
+.footer-content p {
+  font-size: 1em;
+  color: var(--text-gray-3);
+}
+#social-links a {
+  font-size: 1em;
+  color: var(--text-gray-3);
+  margin-left: 20px;
+}
+#social-links a:hover {
+  color: var(--text-gray-1);
+}
+
+/* container layout basics========================================================== */
 .outer-wrapper {
   display: grid;
 
