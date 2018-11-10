@@ -1,0 +1,52 @@
+/* project home grid placement rules */
+#personal-intro {
+  grid-column: 1/13;
+  grid-row: 1;
+  margin: 7.5em 0 3em;
+}
+#header-kapow {
+  position: relative;
+  top: 1.5em;
+  grid-column: 1/13;
+  grid-row: 2;
+}
+#kapow-primary {
+  grid-column: 1/9;
+  grid-row: 3;
+}
+#kapow-secondary {
+  grid-column: 9/13;
+  grid-row: 3;
+}
+#header-zeta {
+  position: relative;
+  top: 1.5em;
+  grid-column: 1/13;
+  grid-row: 4;
+}
+#zeta-lta {
+  grid-column: 1/7;
+  grid-row: 5;
+}
+#zeta-spotlight {
+  grid-column: 7/13;
+  grid-row: 5;
+}
+#header-other {
+  position: relative;
+  top: 1.5em;
+  grid-column: 1/13;
+  grid-row: 6;
+}
+#to-live-tracking {
+  grid-column: 1/5;
+  grid-row: 7;
+}
+#side-iconography {
+  grid-column: 5/9;
+  grid-row: 7;
+}
+#side-data-viz {
+  grid-column: 9/13;
+  grid-row: 7;
+}
