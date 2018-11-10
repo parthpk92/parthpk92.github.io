@@ -1,5 +1,6 @@
 /* variables */
 :root {
+  --highlight-1: #f37430;
   --text-gray-1: #2b2b2b;
   --text-gray-2: #606060;
   --text-gray-3: #b8b8b8;
@@ -56,6 +57,9 @@ figcaption {
   text-align: center;
 }
 /* list settings */
+ol li {
+  margin: 1em 0;
+}
 ul {
   /* font-size: 1em;
   line-height: 1.5em; */
@@ -73,7 +77,7 @@ ul li::before {
   border-radius: 50%;
   position: absolute;
   margin: 0.6em 0 0 -1.5em;
-  background-color: #f37430;
+  background-color: var(--highlight-1);
 }
 
 a {
@@ -218,3 +222,21 @@ section {
 hr {
   margin: 3em 0;
 }
+.img-overlay {
+  position: absolute;
+
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+  padding: 0 0.3em;
+
+  /* color: var(--highlight-1); */
+  color: var(--text-gray-1);
+  border-radius: 2px;
+  background-color: white;
+
+  font-size: 1.5em;
+  font-weight: 700;
+}
+/* .team h2{
+  color: var(--text-gray-3);
+} */
