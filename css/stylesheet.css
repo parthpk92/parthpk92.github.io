@@ -88,6 +88,8 @@ img {
   width: 100%;
 
   border-radius: 4px;
+
+  transition: all 0.3s;
 }
 figure {
   margin: 0;
@@ -210,12 +212,18 @@ header {
   color: var(--text-gray-2);
   display: block;
   margin-bottom: 1.5em;
-}
-.project-group div {
   border-radius: 0.25em;
+  overflow: hidden;
+  transition: all 0.3s;
 }
-.project-group :hover {
+/* .project-group div {
+  border-radius: 0.25em;
+} */
+.project-group:hover {
   background-color: var(--hover-bg-gray);
+}
+.project-group:hover img {
+  transform: scale(1.03);
 }
 .card-content {
   padding: 0.5em;
