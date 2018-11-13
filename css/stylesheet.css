@@ -279,3 +279,244 @@ hr {
 /* .team h2{
   color: var(--text-gray-3);
 } */
+
+/* mobile css ====================================================================== */
+@media (max-width: 640px) {
+
+  /* basics (margin and params)======================================================= */
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+    margin: 1em 0 0;
+  }
+  h3 {
+    font-size: 1.25em;
+  }
+  h4 {
+    font-size: 1em;
+    color: var(--text-gray-3);
+  }
+  p {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.6em;
+  }
+  figcaption {
+    font-size: 0.9em;
+    color: var(--text-gray-2);
+    margin: 0.25em 0 0;
+    text-align: center;
+  }
+  /* list settings */
+  ol li {
+    margin: 1em 0;
+  }
+  ul {
+    margin: 1.5em 0;
+    list-style: none;
+  }
+  ul li {
+    margin: 1em 0;
+  }
+  ul li::before {
+    content: "";
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0.6em 0 0 -1.5em;
+    background-color: var(--highlight-1);
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-gray-2);
+  }
+  p a, li a {
+    border-bottom: 2px dotted var(--text-gray-3);
+  }
+  img {
+    width: 100%;
+
+    border-radius: 4px;
+
+    transition: all 0.3s;
+  }
+  figure {
+    margin: 0;
+  }
+
+  /* navigation bar=================================================================== */
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 88%;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 10px 0px;
+  }
+  .nav-title {
+    margin-left: 0px;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: var(--text-gray-3);
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+  .nav-title:hover {
+    color: var(--text-gray-1);
+  }
+  .nav-links {
+    margin-right: 0px;
+  }
+  .nav-links a {
+    margin: 0 10px;
+    padding: 5px 10px;
+
+    text-transform: uppercase;
+
+    color: var(--text-gray-3);
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 700;
+  }
+  .nav-links a:hover {
+    color: var(--text-gray-1);
+    border-bottom: 2px solid var(--text-gray-1);
+  }
+  #active-nav {
+    cursor: default;
+
+    color: var(--text-gray-1);
+    border-bottom: 2px solid var(--text-gray-1);
+  }
+
+  /* footer========================================================== */
+  footer {
+    width: 100%;
+    margin: 10em 0 0;
+    background-color: var(--hover-bg-gray);
+    padding: 1em 0;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 88%;
+    max-width: var(--max-width);
+    margin: auto;
+  }
+  .footer-content p {
+    font-size: 1em;
+    color: var(--text-gray-3);
+    padding: 10px 0;
+  }
+  #social-links a {
+    font-size: 1em;
+    color: var(--text-gray-3);
+    margin: 0;
+    padding: 0 10px;
+  }
+  #social-links a:hover {
+    color: var(--text-gray-1);
+  }
+
+  /* container layout basics========================================================== */
+  .outer-wrapper {
+    display: grid;
+
+    width: 88%;
+    max-width: var(--max-width);
+    margin: auto;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1.5em;
+  }
+
+  /* intro header rules=============================================================== */
+  /* spacing and font rules which are common to all headers across all pages */
+  header {
+    margin: 4em 0 0;
+  }
+  .caption-font {
+    margin: 0.3em 0 0 0;
+
+    font-size: 1.125em;
+    line-height: 1.4em;
+  }
+  /* spacing and grid placement rules which are specific to the personal intro div (for now) */
+
+  /* specific to the home page======================================================== */
+
+  /* project listing layout=========================================================== */
+  /* various display params related to the project card */
+  .project-group {
+    margin-bottom: 0.5em;
+  }
+  .card-content p {
+    font-size: 0.9em;
+    margin-top: 0.25em;
+  }
+
+  /* general article placement rules================================================== */
+  .article-header {
+    grid-column: 2/12;
+    grid-row: 1;
+  }
+  .article-cover-image {
+    grid-column: 1/13;
+    grid-row: 2;
+    /* height: 20em;
+    margin: -5em 0 2em; */
+  }
+  .article-intro {
+    grid-column: 2/12;
+    grid-row: 3;
+  }
+
+  /* general article formatting rules================================================= */
+  .article-text {
+    font-size: 1.125em;
+    line-height: 1.6em;
+    margin: 1.5em 0;
+  }
+  section {
+    margin: 2em 0 0;
+  }
+  hr {
+    margin: 3em 0;
+  }
+  .img-overlay {
+    position: absolute;
+
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    padding: 0 0.3em;
+
+    /* color: var(--highlight-1); */
+    color: var(--text-gray-1);
+    border-radius: 2px;
+    background-color: white;
+
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  /* .team h2{
+    color: var(--text-gray-3);
+  } */
+
+}
