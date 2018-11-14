@@ -16,3 +16,24 @@
   grid-column: 1/13;
   grid-row: 3;
 }
+
+/* mobile layout */
+@media (max-width: 640px) {
+  #about-personal-intro {
+    grid-column: 1/7;
+    grid-row: 1;
+    margin: 3em 0 1em;
+  }
+  #about-reading-list {
+    grid-column: 1/7;
+    grid-row: 2;
+  }
+  #about-likes {
+    grid-column: 1/7;
+    grid-row: 3;
+  }
+  #about-workex {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+}

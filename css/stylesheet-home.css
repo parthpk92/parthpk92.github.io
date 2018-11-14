@@ -57,7 +57,7 @@
   #personal-intro {
     grid-column: 1/7;
     grid-row: 1;
-    margin: 2em 0 3em;
+    margin: 3em 0 3em;
   }
   #header-kapow {
     position: relative;

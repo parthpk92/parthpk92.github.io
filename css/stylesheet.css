@@ -294,7 +294,7 @@ hr {
     margin: 1em 0 0;
   }
   h3 {
-    font-size: 1.25em;
+    font-size: 1.125em;
   }
   h4 {
     font-size: 1em;
@@ -302,8 +302,8 @@ hr {
   }
   p {
     margin: 0;
-    font-size: 1.125em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1.5em;
   }
   figcaption {
     font-size: 0.9em;
@@ -392,7 +392,7 @@ hr {
     margin: 0.3em 0 0 0;
 
     font-size: 1.125em;
-    line-height: 1.4em;
+    line-height: 1.6em;
   }
   /* spacing and grid placement rules which are specific to the personal intro div (for now) */
 
@@ -426,12 +426,12 @@ hr {
 
   /* general article formatting rules================================================= */
   .article-text {
-    font-size: 1.125em;
-    line-height: 1.6em;
-    margin: 1.5em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1.6em 0;
   }
   section {
-    margin: 2em 0 0;
+    margin: 1em 0 0;
   }
   hr {
     margin: 3em 0;
