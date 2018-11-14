@@ -99,3 +99,108 @@
   grid-column: 2/12;
   grid-row: 19;
 }
+
+
+/* mobile layout rules ============================================================= */
+@media (max-width: 640px) {
+
+  /* section 1: designing */
+  #spotlight-designing {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+
+  /* section 1a: pitching the products */
+  #spotlight-pitching-products {
+    grid-column: 1/7;
+    grid-row: 5;
+  }
+  #spotlight-pitch-iter-1 {
+    grid-column: 1/4;
+    grid-row: 6;
+  }
+  #spotlight-pitch-iter-2 {
+    grid-column: 4/7;
+    grid-row: 6;
+  }
+  #spotlight-pitch-iter-3 {
+    grid-column: 1/7;
+    grid-row: 7;
+  }
+  #spotlight-pitch-conc {
+    grid-column: 1/7;
+    grid-row: 8;
+  }
+
+  /* section 1b: digigift corporate dashboard */
+  #spotlight-digigift-corp {
+    grid-column: 1/7;
+    grid-row: 9;
+  }
+  #spotlight-digigift-templates {
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+  #spotlight-digigift-custom {
+    grid-column: 1/7;
+    grid-row: 11;
+  }
+  #spotlight-digigift-custom-img {
+    grid-column: 1/7;
+    grid-row: 12;
+  }
+
+  /* section 1c: receiving */
+  #spotlight-receiving-card {
+    grid-column: 1/7;
+    grid-row: 13;
+  }
+  #spotlight-receiving-card-img-1 {
+    grid-column: 1/4;
+    grid-row: 14;
+  }
+  #spotlight-receiving-card-img-2 {
+    grid-column: 4/7;
+    grid-row: 14;
+  }
+
+  /* complete flow */
+  #spotlight-complete-flow {
+    grid-column: 1/7;
+    grid-row: 15;
+  }
+  #spotlight-flow-img-1 {
+    grid-column: 1/4;
+    grid-row: 16;
+  }
+  #spotlight-flow-img-2 {
+    grid-column: 4/7;
+    grid-row: 16;
+  }
+  #spotlight-flow-img-3 {
+    grid-column: 1/4;
+    grid-row: 17;
+  }
+  #spotlight-flow-img-4 {
+    grid-column: 4/7;
+    grid-row: 17;
+  }
+  #spotlight-flow-img-5 {
+    grid-column: 1/4;
+    grid-row: 18;
+  }
+  #spotlight-flow-img-6 {
+    grid-column: 4/7;
+    grid-row: 18;
+  }
+  #spotlight-complete-flow-end {
+    grid-column: 1/7;
+    grid-row: 19;
+  }
+
+  /* team */
+  #spotlight-team {
+    grid-column: 1/7;
+    grid-row: 20;
+  }
+}
