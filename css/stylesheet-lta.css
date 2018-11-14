@@ -158,3 +158,167 @@
   grid-column: 2/12;
   grid-row: 23;
 }
+
+
+/* mobile layout =================================================================== */
+@media (max-width: 640px) {
+  /* lta grid placement rules======================================================================== */
+
+  #lta-existing {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+  #lta-form-image {
+    grid-column: 1/7;
+    grid-row: 5;
+  }
+  #designing-lta {
+    grid-column: 1/7;
+    grid-row: 6;
+  }
+
+  /* iteration 1 ul and images */
+  #lta-iter-1 {
+    grid-column: 1/7;
+    grid-row: 7;
+  }
+  #lta-iter-1-img-1 {
+    grid-column: 1/4;
+    grid-row: 8;
+  }
+  #lta-iter-1-img-2 {
+    grid-column: 4/7;
+    grid-row: 8;
+  }
+  #lta-iter-1-img-3 {
+    grid-column: 1/7;
+    grid-row: 9;
+  }
+
+  /* iteration 2 ul and images */
+  #lta-iter-2 {
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+  #lta-iter-2-img-1 {
+    grid-column: 1/4;
+    grid-row: 11;
+  }
+  #lta-iter-2-img-2 {
+    grid-column: 4/7;
+    grid-row: 11;
+  }
+  #lta-iter-2-img-3 {
+    grid-column: 1/4;
+    grid-row: 12;
+  }
+  #lta-iter-2-img-4 {
+    grid-column: 4/7;
+    grid-row: 12;
+  }
+
+  /* testing them out */
+  #lta-iter-test {
+    grid-column: 1/7;
+    grid-row: 13;
+  }
+  #lta-iter-1-test {
+    grid-column: 1/7;
+    grid-row: 14;
+  }
+  #lta-iter-2-test {
+    grid-column: 1/7;
+    grid-row: 15;
+  }
+  #lta-test-conclusion {
+    grid-column: 1/7;
+    grid-row: 16;
+  }
+
+  /* complete flow */
+  #lta-complete-flow {
+    grid-column: 1/7;
+    grid-row: 17;
+  }
+  #lta-flow-img-1 {
+    grid-column: 1/4;
+    grid-row: 18;
+  }
+  #lta-flow-img-2 {
+    grid-column: 4/7;
+    grid-row: 18;
+  }
+  #lta-flow-img-3 {
+    grid-column: 1/4;
+    grid-row: 19;
+  }
+  #lta-flow-img-4 {
+    grid-column: 4/7;
+    grid-row: 19;
+  }
+  #lta-flow-img-5 {
+    grid-column: 1/4;
+    grid-row: 20;
+  }
+  #lta-flow-img-6 {
+    grid-column: 4/7;
+    grid-row: 20;
+  }
+  #lta-flow-img-7 {
+    grid-column: 1/4;
+    grid-row: 21;
+  }
+  #lta-flow-img-8 {
+    grid-column: 4/7;
+    grid-row: 21;
+  }
+  #lta-complete-flow-end {
+    grid-column: 1/7;
+    grid-row: 22;
+  }
+
+  /* little details */
+  #lta-little-details {
+    grid-column: 1/7;
+    grid-row: 23;
+  }
+  /* #lta-outcome-txt {
+    grid-column: 2/8;
+    grid-row: 19;
+  } */
+  #lta-outcome-img {
+    grid-column: 1/4;
+    grid-row: 24;
+  }
+  /* #lta-tip-txt {
+    grid-column: 6/12;
+    grid-row: 20;
+  } */
+  #lta-tip-img {
+    grid-column: 4/7;
+    grid-row: 24;
+  }
+  /* #lta-claim-dashboard-txt {
+    grid-column: 2/6;
+    grid-row: 21;
+  } */
+  #lta-claim-dashboard-img {
+    grid-column: 1/7;
+    grid-row: 25;
+  }
+  #lta-details-desc {
+    grid-column: 1/7;
+    grid-row: 26;
+  }
+  /* future iterations */
+  #lta-future-iterations {
+    grid-column: 1/7;
+    grid-row: 27;
+  }
+
+  /* team */
+  #lta-team {
+    grid-column: 1/7;
+    grid-row: 28;
+  }
+}
