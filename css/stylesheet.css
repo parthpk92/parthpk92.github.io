@@ -175,7 +175,8 @@ footer {
 a svg:hover #footer-twitter,
 a svg:hover #footer-instagram,
 a svg:hover #footer-dribbble,
-a svg:hover #footer-linkedin {
+a svg:hover #footer-linkedin,
+a svg:hover #nav-pk-monogram {
   fill: var(--text-gray-1);
 }
 
