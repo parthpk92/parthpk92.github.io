@@ -1,6 +1,5 @@
 /* iconography grid placement rules================================================================= */
 
-/* section 1: existing */
 #iconography-kapowtabs {
   grid-column: 1/13;
   grid-row: 4;
@@ -22,4 +21,31 @@
 #tracking-team {
   grid-column: 2/12;
   grid-row: 11;
+}
+
+/* mobile grid ===================================================================== */
+@media (max-width: 640px) {
+
+  #iconography-kapowtabs {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+  #iconography-zeta-illus {
+    grid-column: 1/4;
+    grid-row: 5;
+  }
+  #iconography-kapow-icons {
+    grid-column: 4/7;
+    grid-row: 5;
+  }
+  #iconography-kapow-bollywars {
+    grid-column: 1/7;
+    grid-row: 6;
+  }
+
+  /* team */
+  #tracking-team {
+    grid-column: 2/12;
+    grid-row: 11;
+  }
 }
