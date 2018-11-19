@@ -1,69 +1,123 @@
-/* tinyowl order tracking grid placement rules================================================================= */
+/* BollyWars grid placement rules================================================================= */
 
-/* section 1: existing */
-#bollywars-concept {
+#bollywars-mechanics {
   grid-column: 2/12;
   grid-row: 4;
 }
-#tracking-existing-img-1 {
-  grid-column: 1/4;
+#bollywars-fts {
+  grid-column: 1/5;
   grid-row: 5;
 }
-#tracking-existing-img-2 {
-  grid-column: 4/7;
+#bollywars-catapult {
+  grid-column: 5/9;
   grid-row: 5;
 }
-#tracking-existing-img-3 {
-  grid-column: 7/10;
+#bollywars-anglespeed {
+  grid-column: 9/13;
   grid-row: 5;
 }
-#tracking-existing-img-4 {
-  grid-column: 10/13;
-  grid-row: 5;
-}
-#tracking-existing-end {
+#bollywars-gameplay-conclusion {
   grid-column: 2/12;
   grid-row: 6;
 }
 
-/* section 2: designing */
-#tracking-designing {
+#bollywars-theme {
   grid-column: 2/12;
   grid-row: 7;
 }
-#tracking-designing-img-1 {
-  grid-column: 1/5;
+#bollywars-character-prem {
+  grid-column: 1/7;
   grid-row: 8;
 }
-#tracking-designing-img-2 {
-  grid-column: 5/9;
+#bollywars-character-babuji {
+  grid-column: 7/13;
   grid-row: 8;
 }
-#tracking-designing-img-3 {
-  grid-column: 9/13;
-  grid-row: 8;
-}
-
-/* section 3: little details */
-#tracking-details {
-  grid-column: 2/12;
+#bollywars-character-rohit {
+  grid-column: 1/7;
   grid-row: 9;
 }
-#tracking-details-img-1 {
-  grid-column: 1/4;
-  grid-row: 10;
-}
-#tracking-details-img-2 {
-  grid-column: 4/7;
-  grid-row: 10;
-}
-#tracking-details-desc {
+#bollywars-character-monjulika {
   grid-column: 7/13;
+  grid-row: 9;
+}
+#bollywars-theme-conclusion {
+  grid-column: 2/12;
   grid-row: 10;
+}
+#bollywars-character-finalprem {
+  grid-column: 1/7;
+  grid-row: 11;
+}
+#bollywars-character-finalbabuji {
+  grid-column: 7/13;
+  grid-row: 11;
+}
+/* team */
+#bollywars-team {
+  grid-column: 2/12;
+  grid-row: 12;
 }
 
-/* team */
-#tracking-team {
-  grid-column: 2/12;
-  grid-row: 11;
+/* mobile layout rules */
+@media (max-width: 640px) {
+  #bollywars-mechanics {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+  #bollywars-fts {
+    grid-column: 1/7;
+    grid-row: 5;
+  }
+  #bollywars-catapult {
+    grid-column: 1/7;
+    grid-row: 6;
+  }
+  #bollywars-anglespeed {
+    grid-column: 1/7;
+    grid-row: 7;
+  }
+  #bollywars-gameplay-conclusion {
+    grid-column: 1/7;
+    grid-row: 8;
+  }
+
+  #bollywars-theme {
+    grid-column: 1/7;
+    grid-row: 9;
+  }
+  #bollywars-character-prem {
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+  #bollywars-character-babuji {
+    grid-column: 1/7;
+    grid-row: 11;
+  }
+  #bollywars-character-rohit {
+    grid-column: 1/7;
+    grid-row: 12;
+  }
+  #bollywars-character-monjulika {
+    grid-column: 1/7;
+    grid-row: 13;
+  }
+  #bollywars-theme-conclusion {
+    grid-column: 1/7;
+    grid-row: 14;
+  }
+  #bollywars-character-finalprem {
+    grid-column: 1/7;
+    grid-row: 15;
+  }
+  #bollywars-character-finalbabuji {
+    grid-column: 1/7;
+    grid-row: 16;
+  }
+  /* team */
+  #bollywars-team {
+    grid-column: 1/7;
+    grid-row: 17;
+  }
+
 }

@@ -57,97 +57,99 @@
 
     <!-- article intro =============================================================================== -->
     <section class="article-intro">
-      <p class="caption-font">While creating and licensing games for Kapow, there was always the realization that, for an app with a predominantly Indian audience, there was no India-specific content. During a weekend hackathon, we took the chance to create something original and wacky intended specifically for our Indian userbase.</p>
+      <p class="caption-font">While creating and licensing games for Kapow, there was always the realization that, for an app with a predominantly Indian audience, there was little India-specific content. We stumbled upon the basic idea for this game while discussing nostalgic childhood games and movies and decided to explore it further during a weekend hackathon.</p>
     </section>
 
     <!-- section 1: existing =============================================================================== -->
-    <section id="bollywars-concept">
-      <h2>The concept</h2>
-      <p class="article-text">There are two key ingredients to a game: the gameplay mechanics and the </p>
+    <section id="bollywars-mechanics">
+      <h2>Genre, gameplay and mechanics</h2>
+      <p class="article-text">We wanted the game to have a classic, almost nostalgic, feel to it. For this reason, I chose a simple 2-player fighter as the core gameplay – similar to 90s classics like worms, pocket tanks, mortal kombat etc.
+      </p>
+      <p class="article-text">A few characteristics of the gameplay:
+      </p>
       <ul>
         <li>
-          <p><strong>Incomplete or no order tracking</strong><br>The customer was only notified about the order confirmation and dispatch (and this too if the restaurant manager remembered to mark it on their app)</p>
+          <p>Turn-based 2-player game where the aim is to knockout your opponent before they knock you out</p>
         </li>
         <li>
-          <p><strong>No active knowledge of order fulfilment</strong><br>After the promised delivery time was over, the customer was asked whether the order was delivered. TinyOwl had no way of knowing whether there were any issues with an order and actively resolving it.</p>
+          <p>Each playable character has unique weapons and powers</p>
+        </li>
+        <li>
+          <p>For each attack, the player needs to throw their weapon over an obstacle (say, a wall) keeping in mind the opponent's position, wind direction, etc.</p>
+        </li>
+      </ul>
+      <p class="article-text">For the weapon-throwing mechanic, I explored a number of interactions…</p>
+      <ul>
+        <li>
+          <p>Flick-to-shoot</p>
+        </li>
+        <li>
+          <p>Catapult-action shooting</p>
+        </li>
+        <li>
+          <p>Set precise angle, speed of projectile and shoot</p>
         </li>
       </ul>
     </section>
-    <figure id="tracking-existing-img-1">
-      <img src="../images/mobile-placeholder.png" alt="waiting to be confirmed">
-      <figcaption>Waiting to be confirmed</figcaption>
+    <figure id="bollywars-fts">
+      <img src="../images/kapow-bollywars/bollywars-FTS.png" alt="">
+      <figcaption>Flick-to-shoot</figcaption>
     </figure>
-    <figure id="tracking-existing-img-2">
-      <img src="../images/mobile-placeholder.png" alt="confirmed">
-      <figcaption>Confirmed</figcaption>
+    <figure id="bollywars-catapult">
+      <img src="../images/kapow-bollywars/bollywars-catapult.png" alt="">
+      <figcaption>Catapult action</figcaption>
     </figure>
-    <figure id="tracking-existing-img-3">
-      <img src="../images/mobile-placeholder.png" alt="order dispatched">
-      <figcaption>Dispatched (not always marked by the restaurant)</figcaption>
+    <figure id="bollywars-anglespeed">
+      <img src="../images/kapow-bollywars/bollywars-anglespeed.png" alt="">
+      <figcaption>Set exact angle, speed before firing</figcaption>
     </figure>
-    <figure id="tracking-existing-img-4">
-      <img src="../images/mobile-placeholder.png" alt="was it delivered?">
-      <figcaption>Was it delivered? (asked to the customer!)</figcaption>
-    </figure>
-    <section id="tracking-existing-end">
-      <p class="caption-font">Analysis of support queries and talking with users made it very clear that lack of post-order transparency was a major anxiety factor.</p>
+    <section id="bollywars-gameplay-conclusion">
+      <p class="article-text">After testing, I settled on the catapult-action mechanic as it was intuitive, accurate and engaging</p>
     </section>
-
-    <!-- section 2: designing =============================================================================== -->
-    <section id="tracking-designing">
-      <h2>Designing the solution</h2>
-      <p class="article-text">As mentioned earlier, the most significant decision was taken at the business level when TinyOwl decided to take charge of logistics itself.<br><br>I worked on the incorporating this change into the customer-facing app. Below are some tweaks I did on the order tracking page…</p>
+    <section id="bollywars-theme">
+      <h2>Theme</h2>
+      <p class="article-text">For a game which wanted to connect with Indian audiences, there were two obvious choices for the theme - cricket and movies. Both are practically woven into the fabric of society.<br><br>After some experimentation, I chose to go with movies (particularly Bollywood movies) since they were an endless source of banter and coming up with fun, satirical content was easy.
+      </p>
+      <p class="article-text">For the theme and content, a few guidelines I set were:
+      </p>
       <ul>
         <li>
-          <p><strong>Focus on the real-time status.</strong><br>Prominent live order tracking with a big, clear map view. The layout was also significantly de-cluttered.</p>
+          <p>Recreate iconic characters</p>
         </li>
         <li>
-          <p><strong>Make customers aware about the new feature.</strong><br>The map interface was shown even before the live tracking began to educate users about the introduction of this feature.</p>
+          <p>Set a satirical style of copywriting</p>
         </li>
       </ul>
+      <p class="article-text">Below are some initial drafts I came up with for the characters…</p>
     </section>
-    <figure id="tracking-designing-img-1">
-      <img src="../images/mobile-placeholder.png" alt="Before live-tracking begins">
-      <figcaption>Before live tracking begins</figcaption>
+    <figure id="bollywars-character-prem">
+      <img src="../images/kapow-bollywars/bollywars-character-prem.png" alt="">
     </figure>
-    <figure id="tracking-designing-img-2">
-      <img src="../images/mobile-placeholder.png" alt="Before live-tracking begins">
-      <figcaption>Live tracking in progress</figcaption>
+    <figure id="bollywars-character-babuji">
+      <img src="../images/kapow-bollywars/bollywars-character-babuji.png" alt="">
     </figure>
-    <figure id="tracking-designing-img-3">
-      <img src="../images/mobile-placeholder.png" alt="order delivered">
-      <figcaption>Order delivered</figcaption>
+    <figure id="bollywars-character-rohit">
+      <img src="../images/kapow-bollywars/bollywars-character-rohit.png" alt="">
     </figure>
-
-    <!-- section 3: little details ============================================================= -->
-    <section id="tracking-details">
-      <h2>Little details</h2>
-      <p class="article-text">Some nifty touches that I'm particularly proud of:</p>
+    <figure id="bollywars-character-monjulika">
+      <img src="../images/kapow-bollywars/bollywars-character-monjulika.png" alt="">
+    </figure>
+    <section id="bollywars-theme-conclusion">
+      <p class="article-text">There were many more characters on my drawing board but due to the time constraints associated with a hackathon, we decided to create the MVP with only two characters - Prem and Babuji.<br><br> Deepti Pareek, a fellow designer, brought the concepts to life with her kickass digital illustration skills…</p>
     </section>
-    <figure id="tracking-details-img-1">
-      <p class="img-overlay">1</p>
-      <img src="../images/mobile-placeholder.png" alt="legible map pins">
+    <figure id="bollywars-character-finalprem">
+      <img src="../images/kapow-bollywars/bollywars-character-finalprem.png" alt="">
     </figure>
-    <figure id="tracking-details-img-2">
-      <p class="img-overlay">2</p>
-      <img src="../images/mobile-placeholder.png" alt="legible map pins">
+    <figure id="bollywars-character-finalbabuji">
+      <img src="../images/kapow-bollywars/bollywars-character-finalbabuji.png" alt="">
     </figure>
-    <ol id="tracking-details-desc">
-      <li>
-        <p>Push notifications convey important, accurate info at a glance.</p>
-      </li>
-      <li>
-        <p>Pins are designed so that focus is on the delivery boy. Difference in size & colour makes it easy to distinguish when the pins are overlapping.</p>
-      </li>
-    </ol>
-
     <!-- the team ============================================================================ -->
-    <section class="team" id="tracking-team">
+    <section class="team" id="bollywars-team">
       <h2>The team</h2>
       <ul>
-        <li><p>Product Manager: Pruthviraj Haral</p></li>
-        <li><p>Designers: Me, Soumya Pachigolla, Avik Dey (mentor).</p></li>
-        <li><p>Engineers: Zunaid Ahmed, Manas Chaudhary</p></li>
+        <li><p>Product Manager: Setal Patel</p></li>
+        <li><p>Designers: Me, Deepti Pareek</p></li>
+        <li><p>Engineers: Sukhmeet Singh, Himanshu Jaju</p></li>
       </ul>
     </section>
   </article>
