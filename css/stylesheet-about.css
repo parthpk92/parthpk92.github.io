@@ -1,3 +1,18 @@
+.workex-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+.img-logo {
+  width: auto;
+  margin-right: 1.5em;
+}
+.workex-continued {
+  margin-top: 1em;
+}
+
 /* about grid placement rules======================================================================== */
 #about-personal-intro {
   grid-column: 1/13;
@@ -16,9 +31,11 @@
   grid-column: 1/13;
   grid-row: 3;
 }
-
 /* mobile layout */
 @media (max-width: 640px) {
+  .img-logo {
+    margin-right: 1em;
+  }
   #about-personal-intro {
     grid-column: 1/7;
     grid-row: 1;
