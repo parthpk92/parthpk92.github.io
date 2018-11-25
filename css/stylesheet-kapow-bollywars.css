@@ -53,10 +53,37 @@
   grid-column: 7/13;
   grid-row: 11;
 }
+
+/* flow */
+#bollywars-complete-flow{
+  grid-column: 1/13;
+  grid-row: 12;
+}
+#bollywars-flow-img-1 {
+  grid-column: 1/4;
+  grid-row: 13;
+}
+#bollywars-flow-img-2 {
+  grid-column: 4/7;
+  grid-row: 13;
+}
+#bollywars-flow-img-3 {
+  grid-column: 7/10;
+  grid-row: 13;
+}
+#bollywars-flow-img-4 {
+  grid-column: 10/13;
+  grid-row: 13;
+}
+#bollywars-complete-flow-end {
+  grid-column: 1/13;
+  grid-row: 14;
+}
+
 /* team */
 #bollywars-team {
   grid-column: 2/12;
-  grid-row: 12;
+  grid-row: 15;
 }
 
 /* mobile layout rules */
@@ -114,10 +141,36 @@
     grid-column: 1/7;
     grid-row: 16;
   }
+  /* flow */
+  #bollywars-complete-flow{
+    grid-column: 1/7;
+    grid-row: 17;
+  }
+  #bollywars-flow-img-1 {
+    grid-column: 1/7;
+    grid-row: 18;
+  }
+  #bollywars-flow-img-2 {
+    grid-column: 1/7;
+    grid-row: 19;
+  }
+  #bollywars-flow-img-3 {
+    grid-column: 1/7;
+    grid-row: 20;
+  }
+  #bollywars-flow-img-4 {
+    grid-column: 1/7;
+    grid-row: 21;
+  }
+  #bollywars-complete-flow-end {
+    grid-column: 1/7;
+    grid-row: 22;
+  }
+
   /* team */
   #bollywars-team {
     grid-column: 1/7;
-    grid-row: 17;
+    grid-row: 23;
   }
 
 }
