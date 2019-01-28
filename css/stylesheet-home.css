@@ -58,45 +58,45 @@
 
 /* mobile layout =================================================================== */
 @media (max-width: 640px) {
+
+  /* project home grid placement rules */
   #personal-intro {
     grid-column: 1/7;
     grid-row: 1;
     margin: 3em 0 3em;
   }
-  #header-kapow {
+  #header-best-work {
     position: relative;
     top: 0;
     grid-column: 1/7;
     grid-row: 2;
   }
-  #kapow-primary {
+
+  /* main projects */
+  #kapow-v1 {
     grid-column: 1/7;
     grid-row: 3;
   }
-  #kapow-secondary {
+  #zeta-lta {
     grid-column: 1/7;
     grid-row: 4;
   }
-  #kapow-tournaments {
-    margin-bottom: 3.5em;
-  }
-  #header-zeta {
-    margin-top: 2em;
-    position: relative;
-    top: 0;
+
+  #zeta-spotlight {
     grid-column: 1/7;
     grid-row: 5;
   }
-  #zeta-lta {
+  #kapow-tournaments {
     grid-column: 1/7;
     grid-row: 6;
   }
-  #zeta-spotlight {
+  #kapow-bolly-wars {
     grid-column: 1/7;
     grid-row: 7;
   }
+
+  /* other projects and experiments */
   #header-other {
-    margin-top: 2em;
     position: relative;
     top: 0;
     grid-column: 1/7;
