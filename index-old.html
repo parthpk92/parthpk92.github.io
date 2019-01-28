@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- links=========================================================================================== -->
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="stylesheet" href="css/stylesheet-home.css">
+  <link rel="stylesheet" href="css/stylesheet-home-old.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:700|Open+Sans:400,700" rel="stylesheet">
   <!-- <base href="https://parthpk92.github.io/"> -->
   <!-- <base href="/Users/parthkapadia/Documents/GitHub/parthpk92.github.io/"> -->
@@ -50,19 +50,48 @@
       <p class="caption-font">I'm a product designer based in India. <br>Thanks for stopping by my portfolio. Below, you can find some of my best work…</p>
     </header>
 
-    <!-- best work intro============================================================================== -->
-    <h4 id="header-best-work">My best work</h4>
+    <!-- kapow intro============================================================================== -->
+    <h4 id="header-kapow">Projects for Kapow - a gaming app</h4>
 
     <!-- kapow v1================================================================================== -->
-    <a href="kapow/kapow-app-mvp.html" id="kapow-v1" class="project-group">
-      <div>
-        <img src="images/kapow-v1-title.png" alt="Kapow version 1">
-        <div class="card-content">
-          <h3>Kapow gaming</h3>
-          <p>A social gaming platform catering to casual gamers on mobile devices.</p>
+    <div id="kapow-primary">
+      <a href="kapow/kapow-app-mvp.html" id="kapow-v1" class="project-group">
+        <div>
+          <img src="images/kapow-v1-title.png" alt="Kapow version 1">
+          <div class="card-content">
+            <h3>Kapow v1</h3>
+            <p>A social gaming platform catering to casual gamers on mobile devices. I started from scratch on this project, working on everything from wireframes and prototypes to the branding.</p>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+      <!-- hacky solution: empty div to handle cursor changing to hand over empty space -->
+      <div></div>
+    </div>
+
+    <!-- kapow tournaments and bolly wars========================================================== -->
+    <div id="kapow-secondary">
+      <a href="kapow/kapow-tournaments.html" id="kapow-tournaments" class="project-group">
+        <div>
+          <img src="images/kapow-tournaments-title.png" alt="Kapow tournaments">
+          <div class="card-content">
+            <h3>Tournaments</h3>
+            <p>Bringing competition to the forefront of Kapow.</p>
+          </div>
+        </div>
+      </a>
+      <a href="kapow/kapow-bollywars.html" id="kapow-bolly-wars" class="project-group">
+        <div>
+          <img src="images/kapow-bollywars-title.png" alt="Bolly Wars">
+          <div class="card-content">
+            <h3>Bolly Wars</h3>
+            <p>Banter-turned-serious game idea inspired from the cult of Bollywood.</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- zeta intro============================================================================== -->
+    <h4 id="header-zeta">Projects for Zeta - a payments, tax-benefits and gifting platform</h4>
 
     <!-- zeta lta================================================================================= -->
     <a href="zeta/zeta-lta.html" id="zeta-lta" class="project-group">
@@ -70,7 +99,7 @@
         <img src="images/zeta-lta-title.png" alt="Zeta LTA Claims">
         <div class="card-content">
           <h3>Leave Travel Allowance</h3>
-          <p>India's first digital product to claim tax benefits eligible under the leave travel allowance guidelines.</p>
+          <p>A first-of-its-kind digital product to claim tax benefits eligible under the leave travel allowance guidelines.</p>
         </div>
       </div>
     </a>
@@ -81,46 +110,13 @@
         <img src="images/zeta-spotlight-title.png" alt="Zeta Spotlight Gifting">
         <div class="card-content">
           <h3>Corporate Gifting</h3>
-          <p>A customizable product to fulfil various corporate gifting use cases.</p>
+          <p>A delightful and customizable product to fulfil various corporate gifting use cases.</p>
         </div>
       </div>
     </a>
 
-    <!-- kapow tournaments -->
-    <a href="kapow/kapow-tournaments.html" id="kapow-tournaments" class="project-group">
-      <div>
-        <img src="images/kapow-tournaments-title.png" alt="Kapow tournaments">
-        <div class="card-content">
-          <h3>Kapow Tournaments</h3>
-          <p>Bringing competition to the forefront of Kapow.</p>
-        </div>
-      </div>
-    </a>
-
-    <!-- bolly wars========================================================== -->
-    <a href="kapow/kapow-bollywars.html" id="kapow-bolly-wars" class="project-group">
-      <div>
-        <img src="images/kapow-bollywars-title.png" alt="Bolly Wars">
-        <div class="card-content">
-          <h3>Bolly Wars</h3>
-          <p>Banter-turned-serious game idea inspired from the cult of Bollywood.</p>
-        </div>
-      </div>
-    </a>
-
-    <!-- other intro============================================================================== -->
+    <!-- zeta intro============================================================================== -->
     <h4 id="header-other">More projects and experiments</h4>
-
-    <!-- iconography================================================================================ -->
-    <a href="other/other-iconography.html" id="side-iconography" class="project-group">
-      <div>
-        <img src="images/other-iconography-title.png" alt="Iconography">
-        <div class="card-content">
-          <h3>Icons & Illustrations</h3>
-          <p>Various iconsets and illustrations that I've drawn over the years.</p>
-        </div>
-      </div>
-    </a>
 
     <!-- TO live tracking========================================================================== -->
     <a href="other/tinyowl-live-tracking.html" id="to-live-tracking" class="project-group">
@@ -133,8 +129,19 @@
       </div>
     </a>
 
+    <!-- iconography================================================================================ -->
+    <a href="other/other-iconography.html" id="side-iconography" class="project-group">
+      <div>
+        <img src="images/other-iconography-title.png" alt="Iconography">
+        <div class="card-content">
+          <h3>Icons & Illustrations</h3>
+          <p>Various iconsets and illustrations that I've drawn over the years.</p>
+        </div>
+      </div>
+    </a>
+
     <!-- data viz================================================================================ -->
-    <a href="#side-data-viz" id="side-data-viz" class="project-group">
+    <a href="#" id="side-data-viz" class="project-group">
       <div>
         <img src="images/other-dataviz-title.png" alt="Data Viz">
         <div class="card-content">
