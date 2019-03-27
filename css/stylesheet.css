@@ -49,6 +49,8 @@ p {
 }
 small {
   font-size: 1em;
+  color: var(--text-gray-3);
+  /* margin: 20px 0; */
 }
 figcaption {
   font-size: 0.9em;
