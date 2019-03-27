@@ -98,6 +98,10 @@
   grid-column: 10/13;
   grid-row: 13;
 }
+#designing-kapow-vd-fullflow {
+  grid-column: 1/13;
+  grid-row: 14;
+}
 /* #designing-kapow-vd-image-5 {
   grid-column: 5/9;
   grid-row: 18;
@@ -115,16 +119,33 @@
   grid-row: 19;
 } */
 
+#kapow-little-details {
+  grid-column: 2/12;
+  grid-row: 15;
+}
+#kapow-ld-bottomsheet {
+  grid-column: 2/9;
+  grid-row: 16;
+}
+#kapow-ld-splashanim {
+  grid-column: 9/12;
+  grid-row: 16;
+}
+#lta-details-desc {
+  grid-column: 2/12;
+  grid-row: 17;
+}
+
 /* future iterations */
 #kapow-future-iterations {
   grid-column: 2/12;
-  grid-row: 14;
+  grid-row: 18;
 }
 
 /* team */
 #kapow-team {
   grid-column: 2/12;
-  grid-row: 15;
+  grid-row: 19;
 }
 
 
@@ -230,6 +251,10 @@
     grid-column: 4/7;
     grid-row: 14;
   }
+  #designing-kapow-vd-fullflow {
+    grid-column: 1/7;
+    grid-row: 15;
+  }
   /* #designing-kapow-vd-image-5 {
     grid-column: 1/4;
     grid-row: 21;
@@ -247,15 +272,32 @@
     grid-row: 23;
   } */
 
+  #kapow-little-details {
+    grid-column: 1/7;
+    grid-row: 16;
+  }
+  #kapow-ld-bottomsheet {
+    grid-column: 1/7;
+    grid-row: 17;
+  }
+  #kapow-ld-splashanim {
+    grid-column: 2/6;
+    grid-row: 18;
+  }
+  #lta-details-desc {
+    grid-column: 1/7;
+    grid-row: 19;
+  }
+
   /* future iterations */
   #kapow-future-iterations {
     grid-column: 1/7;
-    grid-row: 15;
+    grid-row: 20;
   }
 
   /* team */
   #kapow-team {
     grid-column: 1/7;
-    grid-row: 16;
+    grid-row: 21;
   }
 }
