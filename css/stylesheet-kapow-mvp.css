@@ -16,6 +16,14 @@
   grid-column: 2/12;
   grid-row: 6;
 }
+#kapow-newgame-img {
+  grid-column: 1/7;
+  grid-row: 7;
+}
+#kapow-resumegame-img {
+  grid-column: 7/13;
+  grid-row: 7;
+}
 /* #kapow-mvp-IA-image {
   grid-column: 1/13;
   grid-row: 7;
@@ -24,7 +32,27 @@
 /* section 2c: designing-flows */
 #designing-kapow-IAnav {
   grid-column: 2/12;
-  grid-row: 7;
+  grid-row: 8;
+}
+#final-wireframes {
+  grid-column: 2/12;
+  grid-row: 9;
+}
+#wireframes-img-01 {
+  grid-column: 1/4;
+  grid-row: 10;
+}
+#wireframes-img-02 {
+  grid-column: 4/7;
+  grid-row: 10;
+}
+#wireframes-img-03 {
+  grid-column: 7/10;
+  grid-row: 10;
+}
+#wireframes-img-04 {
+  grid-column: 10/13;
+  grid-row: 10;
 }
 /* #designing-kapow-flows-image-1 {
   grid-column: 1/13;
@@ -60,47 +88,47 @@
 /* section 2e: designing-branding */
 #designing-kapow-branding {
   grid-column: 2/12;
-  grid-row: 8;
+  grid-row: 11;
 }
 #designing-kapow-branding-colour {
   grid-column: 1/13;
-  grid-row: 9;
+  grid-row: 12;
 }
 #designing-kapow-branding-typography {
   grid-column: 1/13;
-  grid-row: 10;
+  grid-row: 13;
 }
 #designing-kapow-branding-visuals {
   grid-column: 1/13;
-  grid-row: 11;
+  grid-row: 14;
 }
 
 
 /* section 2f: designing-VDs */
 #designing-kapow-vd {
   grid-column: 2/12;
-  grid-row: 12;
+  grid-row: 15;
 }
 
 #designing-kapow-vd-image-1 {
   grid-column: 1/4;
-  grid-row: 13;
+  grid-row: 16;
 }
 #designing-kapow-vd-image-2 {
   grid-column: 4/7;
-  grid-row: 13;
+  grid-row: 16;
 }
 #designing-kapow-vd-image-3 {
   grid-column: 7/10;
-  grid-row: 13;
+  grid-row: 16;
 }
 #designing-kapow-vd-image-4 {
   grid-column: 10/13;
-  grid-row: 13;
+  grid-row: 16;
 }
 #designing-kapow-vd-fullflow {
   grid-column: 1/13;
-  grid-row: 14;
+  grid-row: 17;
 }
 /* #designing-kapow-vd-image-5 {
   grid-column: 5/9;
@@ -121,31 +149,31 @@
 
 #kapow-little-details {
   grid-column: 2/12;
-  grid-row: 15;
+  grid-row: 18;
 }
 #kapow-ld-bottomsheet {
   grid-column: 2/9;
-  grid-row: 16;
+  grid-row: 19;
 }
 #kapow-ld-splashanim {
   grid-column: 9/12;
-  grid-row: 16;
+  grid-row: 19;
 }
 #lta-details-desc {
   grid-column: 2/12;
-  grid-row: 17;
+  grid-row: 20;
 }
 
 /* future iterations */
 #kapow-future-iterations {
   grid-column: 2/12;
-  grid-row: 18;
+  grid-row: 21;
 }
 
 /* team */
 #kapow-team {
   grid-column: 2/12;
-  grid-row: 19;
+  grid-row: 22;
 }
 
 
@@ -170,6 +198,14 @@
     grid-column: 1/7;
     grid-row: 6;
   }
+  #kapow-newgame-img {
+    grid-column: 1/7;
+    grid-row: 7;
+  }
+  #kapow-resumegame-img {
+    grid-column: 1/7;
+    grid-row: 8;
+  }
   /* #kapow-mvp-IA-image {
     grid-column: 1/7;
     grid-row: 7;
@@ -178,7 +214,27 @@
   /* section 2c: designing-flows */
   #designing-kapow-IAnav {
     grid-column: 1/7;
-    grid-row: 7;
+    grid-row: 9;
+  }
+  #final-wireframes{
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+  #wireframes-img-01 {
+    grid-column: 1/4;
+    grid-row: 11;
+  }
+  #wireframes-img-02 {
+    grid-column: 4/7;
+    grid-row: 11;
+  }
+  #wireframes-img-03 {
+    grid-column: 1/4;
+    grid-row: 12;
+  }
+  #wireframes-img-04 {
+    grid-column: 4/7;
+    grid-row: 12;
   }
   /* #designing-kapow-flows-image-1 {
     grid-column: 1/7;
@@ -214,46 +270,46 @@
   /* section 2e:designing-branding  */
   #designing-kapow-branding {
     grid-column: 1/7;
-    grid-row: 8;
+    grid-row: 13;
   }
   #designing-kapow-branding-colour {
     grid-column: 1/7;
-    grid-row: 9;
+    grid-row: 14;
   }
   #designing-kapow-branding-typography {
     grid-column: 1/7;
-    grid-row: 10;
+    grid-row: 15;
   }
   #designing-kapow-branding-visuals {
     grid-column: 1/7;
-    grid-row: 11;
+    grid-row: 16;
   }
 
   /* section 2f: designing-VDs */
   #designing-kapow-vd {
     grid-column: 1/7;
-    grid-row: 12;
+    grid-row: 17;
   }
 
   #designing-kapow-vd-image-1 {
     grid-column: 1/4;
-    grid-row: 13;
+    grid-row: 18;
   }
   #designing-kapow-vd-image-2 {
     grid-column: 4/7;
-    grid-row: 13;
+    grid-row: 18;
   }
   #designing-kapow-vd-image-3 {
     grid-column: 1/4;
-    grid-row: 14;
+    grid-row: 19;
   }
   #designing-kapow-vd-image-4 {
     grid-column: 4/7;
-    grid-row: 14;
+    grid-row: 19;
   }
   #designing-kapow-vd-fullflow {
     grid-column: 1/7;
-    grid-row: 15;
+    grid-row: 20;
   }
   /* #designing-kapow-vd-image-5 {
     grid-column: 1/4;
@@ -274,30 +330,30 @@
 
   #kapow-little-details {
     grid-column: 1/7;
-    grid-row: 16;
+    grid-row: 21;
   }
   #kapow-ld-bottomsheet {
     grid-column: 1/7;
-    grid-row: 17;
+    grid-row: 22;
   }
   #kapow-ld-splashanim {
     grid-column: 2/6;
-    grid-row: 18;
+    grid-row: 23;
   }
   #lta-details-desc {
     grid-column: 1/7;
-    grid-row: 19;
+    grid-row: 24;
   }
 
   /* future iterations */
   #kapow-future-iterations {
     grid-column: 1/7;
-    grid-row: 20;
+    grid-row: 25;
   }
 
   /* team */
   #kapow-team {
     grid-column: 1/7;
-    grid-row: 21;
+    grid-row: 26;
   }
 }
