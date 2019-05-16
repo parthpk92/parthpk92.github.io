@@ -1,138 +1,196 @@
 /* kapow mvp grid placement rules======================================================================== */
 
-/* leaderboards */
-#tournaments-why {
+/* context */
+#tournaments-context {
   grid-column: 2/12;
   grid-row: 4;
 }
-#tournaments-leaderboards-image-1 {
-  grid-column: 3/7;
+
+#tournaments-problem-statement {
+  grid-column: 2/12;
   grid-row: 5;
 }
-#tournaments-leaderboards-image-2 {
-  grid-column: 7/11;
-  grid-row: 5;
-}
-#tournaments-leaderboards-postrelease {
+
+/* leaderboards */
+#tournaments-phase-1-leaderboards {
   grid-column: 2/12;
   grid-row: 6;
 }
-
-/* designing */
-#tournaments-designing {
-  grid-column: 2/12;
+#tournaments-leaderboard-img1 {
+  grid-column: 3/7;
   grid-row: 7;
 }
+#tournaments-leaderboard-img2 {
+  grid-column: 7/11;
+  grid-row: 7;
+}
+#tournaments-leaderboards-desc {
+  grid-column: 2/12;
+  grid-row: 8;
+}
+#leaderboards-validation {
+  grid-column: 2/12;
+  grid-row: 9;
+}
+
+/* tournaments */
+#tournaments-phase-2-tournament {
+  grid-column: 2/12;
+  grid-row: 10;
+}
+
+
 #tournaments-designing-image-1 {
   grid-column: 1/4;
-  grid-row: 8;
+  grid-row: 11;
 }
 #tournaments-designing-image-2 {
   grid-column: 4/7;
-  grid-row: 8;
+  grid-row: 11;
 }
 #tournaments-designing-image-3 {
   grid-column: 7/10;
-  grid-row: 8;
+  grid-row: 11;
 }
 #tournaments-designing-image-4 {
   grid-column: 10/13;
-  grid-row: 8;
+  grid-row: 11;
+}
+#tournaments-design-decisions {
+  grid-column: 2/12;
+  grid-row: 12;
+}
+#tournaments-introduction {
+  grid-column: 2/12;
+  grid-row: 13;
+}
+#tournaments-introduction-image {
+  grid-column: 3/11;
+  grid-row: 14;
 }
 
 /* impact */
 #tournaments-impact {
   grid-column: 2/12;
-  grid-row: 9;
+  grid-row: 15;
 }
 
 /* team */
 #kapow-team {
   grid-column: 2/12;
-  grid-row: 10;
+  grid-row: 16;
 }
 
 /* links to other projects */
 #more-projects {
   grid-column: 2/12;
-  grid-row: 11;
-}
-#more-kapow-v1 {
-  grid-column: 2/7;
-  grid-row: 12;
+  grid-row: 17;
 }
 #more-zeta-lta {
+  grid-column: 2/7;
+  grid-row: 18;
+}
+#more-kapow-v1 {
   grid-column: 7/12;
-  grid-row: 12;
+  grid-row: 18;
 }
 
 
 /* mobile layout =================================================================== */
 @media (max-width: 640px) {
 
-  /* section 1: audience */
-  #tournaments-why {
+  /* context */
+  #tournaments-context {
     grid-column: 1/7;
     grid-row: 4;
   }
-  #tournaments-leaderboards-image-1 {
-    grid-column: 1/4;
+
+  #tournaments-problem-statement {
+    grid-column: 1/7;
     grid-row: 5;
   }
-  #tournaments-leaderboards-image-2 {
-    grid-column: 4/7;
-    grid-row: 5;
-  }
-  #tournaments-leaderboards-postrelease {
+
+  /* leaderboards */
+  #tournaments-phase-1-leaderboards {
     grid-column: 1/7;
     grid-row: 6;
   }
-
-  /* designing */
-  #tournaments-designing {
-    grid-column: 1/7;
+  #tournaments-leaderboard-img1 {
+    grid-column: 1/4;
     grid-row: 7;
   }
+  #tournaments-leaderboard-img2 {
+    grid-column: 4/7;
+    grid-row: 7;
+  }
+  #tournaments-leaderboards-desc {
+    grid-column: 1/7;
+    grid-row: 8;
+  }
+  #leaderboards-validation {
+    grid-column: 1/7;
+    grid-row: 9;
+  }
+
+  /* tournaments */
+  #tournaments-phase-2-tournament {
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+
+
   #tournaments-designing-image-1 {
     grid-column: 1/4;
-    grid-row: 8;
+    grid-row: 11;
   }
   #tournaments-designing-image-2 {
     grid-column: 4/7;
-    grid-row: 8;
+    grid-row: 11;
   }
   #tournaments-designing-image-3 {
     grid-column: 1/4;
-    grid-row: 9;
+    grid-row: 12;
   }
   #tournaments-designing-image-4 {
     grid-column: 4/7;
-    grid-row: 9;
+    grid-row: 12;
+  }
+  #tournaments-design-decisions {
+    grid-column: 1/7;
+    grid-row: 13;
+  }
+  #tournaments-introduction {
+    grid-column: 1/7;
+    grid-row: 14;
+  }
+  #tournaments-introduction-image {
+    grid-column: 1/7;
+    grid-row: 15;
   }
 
   /* impact */
   #tournaments-impact {
     grid-column: 1/7;
-    grid-row: 10;
+    grid-row: 16;
   }
 
   /* team */
   #kapow-team {
     grid-column: 1/7;
-    grid-row: 11;
+    grid-row: 17;
   }
 
   /* links to other projects */
   #more-projects {
     grid-column: 1/7;
-    grid-row: 12;
-  }
-  #more-kapow-v1 {
-    grid-column: 1/7;
-    grid-row: 13;
+    grid-row: 18;
   }
   #more-zeta-lta {
     grid-column: 1/7;
-    grid-row: 14;
+    grid-row: 19;
+  }
+  #more-kapow-v1 {
+    grid-column: 1/7;
+    grid-row: 20;
   }
 }

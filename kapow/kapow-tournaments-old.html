@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- links=========================================================================================== -->
   <link rel="stylesheet" href="../css/stylesheet.css">
-  <link rel="stylesheet" href="../css/stylesheet-kapow-tournaments.css">
+  <link rel="stylesheet" href="../css/stylesheet-kapow-tournaments-old.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:700|Open+Sans:400,700" rel="stylesheet">
   <!-- <base href="https://parthpk92.github.io/"> -->
   <!-- <base href="/Users/parthkapadia/Documents/GitHub/parthpk92.github.io/" target="_self"> -->
@@ -57,34 +57,15 @@
 
     <!-- article intro =============================================================================== -->
     <section class="article-intro">
-      <p class="caption-font">Tournaments was a feature we arrived at in iterations after seeing the positive effects of fostering competitiveness and rewarding great play.</p>
+      <p class="caption-font">Tournaments was a feature we arrived at in iterations after seeing the positive effect that enabling competitiveness and rewarding great play had on the audience.</p>
     </section>
 
-    <!-- context ========================================================== -->
-    <section id="tournaments-context">
-      <h2>Context</h2>
-      <ul>
-        <li>
-          <p class="article-text">Kapow was a platform on which one could play many games – think, Netflix for games
-          </p>
-        </li>
-        <li>
-          <p class="article-text">In our initial research, we found that competition was an important motivator for people playing games. Hence, Kapow was launched with a focus on multiplayer games.
-          </p>
-        </li>
-        <li>
-          <p class="article-text">However, due to engineering difficulties in creating quality, bug-free multiplayer games, a decision was taken to focus on easier-to-develop singleplayer games for the medium term.
-          </p>
-        </li>
-      </ul>
+    <!-- why tournaments: leaderboards ========================================================== -->
+    <section id="tournaments-why">
+      <h2>Why Tournaments?</h2>
+      <p class="article-text">After observating people compare their scores post a game - especially after a good play - we prioritized the leaderboards feature and I designed its interface. Along with the standard global leaderboard, I also included a country and a friends leaderboard in my design to ensure that everyone had something reachable within grasp. With this initial iteration, we wanted to see the effect that enabling competitiveness had on engagement and retention.</p>
     </section>
-
-    <section id="tournaments-problem-statement">
-      <h2>Problem statement</h2>
-      <p class="article-text"><strong>Foster competition</strong> <br> Unlike multipler games, which have an intrinsic element of competition, supporting features needed to be designed for singleplayer games to foster competition. A constraint here was that it had to be built on the platform side, and not from the game side.</p>
-      <p class="article-text"> <strong>Give bragging rights</strong> <br> A secondary goal was to reward players for good plays which would encourage them to play more and create feel-good, shareable moments as well.</p>
-    </section>
-    <!-- <figure id="tournaments-leaderboards-image-1">
+    <figure id="tournaments-leaderboards-image-1">
       <img src="../images/kapow-tournaments/leaderboard-gamehook.png" alt="">
       <figcaption>In-game CTA for leaderboard</figcaption>
     </figure>
@@ -94,77 +75,27 @@
     </figure>
     <section id="tournaments-leaderboards-postrelease">
       <p class="article-text">A few weeks after release, <strong>we went through the data and it validated our initial hypothesis</strong> that enabling competitiveness and rewarding good players by displaying their names on a leaderboard would increase engagement. Not only did the leaderboard increase engagement for the top players, it also motivated others to beat the high scores and in turn increased their engagement. The retention numbers for those who had viewed leaderboards also increased markedly. <br><br><strong>To build on the success of the leaderboards iteration, we decided to create time-bound tournaments with rewards for the top players.</strong> The same principles of competition combined with recognition/rewards for great plays applied here as well along with the added attraction of a limited-time event.</p>
-    </section> -->
-
-    <!-- leaderboards  =============================================================== -->
-    <section id="tournaments-phase-1-leaderboards">
-      <h2>Phase 1 – leaderboards</h2>
-      <p class="article-text">Here, we skipped the initial research and directly started work on a feature as it could be built quickly to validate our hypothesis – that fostering competition would be a good thing for Kapow.</p>
-    </section>
-    <figure id="tournaments-leaderboard-img1">
-      <img src="../images/kapow-tournaments/leaderboard-friends.png" alt="">
-      <figcaption>Leaderboard screen</figcaption>
-    </figure>
-    <figure id="tournaments-leaderboard-img2">
-      <img src="../images/kapow-tournaments/leaderboards-trigger.png" alt="">
-      <figcaption>Contextual triggers</figcaption>
-    </figure>
-    <section id="tournaments-leaderboards-desc">
-      <h3>Design decisions</h3>
-      <p class="article-text">Leaderboards is a fairly common element in games. We stuck to the conventions for the most part, but let me explain a few particular choices that I made:</p>
-      <ul>
-        <li>
-          <p class="article-text">Likely, you aren't going to be the best in the world, but you can be the best amongst your friends and that is what you're going to brag about. So I designed a 'friends/country/global' toggle with the default being 'friends'.</p>
-        </li>
-        <li>
-          <p class="article-text">People have different play styles (some collect coins, other ignore them and travel the farthest possible). So I also supported that by giving an option to change the parameter by which the leaderboard was sorted.</p>
-        </li>
-        <li>
-          <p class="article-text">Just as important as viewing the leaderboard screen was the method by which you landed on it. For this, I designed contextual triggers which informed the player of important achievements after a game session.</p>
-        </li>
-        <li>
-          <p class="article-text">It was themed according to the game's colours.</p>
-        </li>
-      </ul>
-    </section>
-    <section id="leaderboards-validation">
-      <h2>Validation</h2>
-      <p class="article-text">After being launched, leaderboards validated our hypothesis that fostering competition was a good thing for Kapow</p>
-      <ul>
-        <li>
-          <p>
-          <strong>Qualitative insight</strong> <br>We observed people discussing highscores and leaderboard ranks. They also shared screenshots of the leaderboards. This was a very encouraging behavioural insight.
-          </p>
-        </li>
-        <li>
-          <p>
-          <strong>Quantitative insight</strong> <br>Engagement and retention figures increased for those who had viewed leaderboards.
-          </p>
-        </li>
-      </ul>
-      <p class="article-text">Thus, after receiving validation that enabling competition was a good thing for Kapow, we decided to build on it further.</p>
     </section>
 
-    <!-- tournaments -->
-    <section id="tournaments-phase-2-tournament">
-      <h2>Phase 2 – tournaments</h2>
-      <p class="article-text">To build on leaderboards, we initially thought rewarding players who were top of the leaderboard in a particular week or month. Elaborating on this idea further, we came up with the concept of tournaments – an eagerly-awaited time-bound competition with very desirable prizes and trophies.</p>
-      <p class="article-text">I came up with a categorisation which allowed us to run multiple tournaments without losing the exclusivity of the big ones:</p>
+    <!-- designing tournaments  =============================================================== -->
+    <section id="tournaments-designing">
+      <h2>Designing Tournaments</h2>
+      <p class="article-text">Tournaments was to be a major new addition to Kapow, with online marketing campaigns also promoting it vociferously. For this reason, I decided to tweak the IA to give it the desired prominence - tournaments had an entire tab to itself with the app now having a 4-tab primary navigation. <br><br>The tournaments were categorised in three:</p>
       <ul>
         <li>
-          <p><strong>Mega: </strong>This was the big one. It was rare, with big prizes and was often themed on real-world events – eg. football world cup.</p>
+          <p><strong>Grand:</strong> Major competitions with significant prize money. These were rare and often themed to match with recent popular events.</p>
         </li>
         <li>
-          <p><strong>Classic: </strong>The staple fare. We planned to run 3-4 of these every week so that over the course of a month or two, we could cover the different games on the platform, giving everyone a fair chance to compete in a tournament with a game of their liking.</p>
+          <p><strong>Classic:</strong> The staple fare. 4-5 classic tournaments ran every week.</p>
         </li>
         <li>
-          <p><strong>Mini: </strong>Think of this as a flash sale. It wasn't announced with a lot of notice and only ran for an hour or so. Thus, if you were alert, this was a good chance to collect some trophies.</p>
+          <p><strong>Mini:</strong> Shorter duration tournaments with limited players. The prize money was negligible but you had an easier shot at winning trophies to fill your cabinet.</p>
         </li>
       </ul>
     </section>
     <figure id="tournaments-designing-image-1">
       <img src="../images/kapow-tournaments/tournaments-hometab.png" alt="">
-      <figcaption>Tournaments listing</figcaption>
+      <figcaption>Tournaments tab</figcaption>
     </figure>
     <figure id="tournaments-designing-image-2">
       <img src="../images/kapow-tournaments/tournaments-details.png" alt="">
@@ -178,44 +109,11 @@
       <img src="../images/kapow-tournaments/tournaments-profile.png" alt="">
       <figcaption>An empty cabinet does not</figcaption>
     </figure>
-    <section id="tournaments-design-decisions">
-      <h3>Design decisions</h3>
-      <ul>
-        <li>
-          <p>Game covers dominated the listing page with only important info like time left and prize money shown (one constraint was that these were the only cover images we had available)</p>
-        </li>
-        <li>
-          <p>Players could choose to be notified for upcoming tournaments (this was not a default opt-in as that would have been spammy)</p>
-        </li>
-        <li>
-          <p>Once the tournament begins, the leaderboard is shown. Unlike in-game leaderboards, only important info is shown – players in winning positions and their scores along with your rank and score</p>
-        </li>
-        <li>
-          <p>The winning experience had to feel really special. Thus, on winning, trophy is displayed prominently with a congratulatory message along with other feel-good stats like their final highscore, prize won and players beaten.</p>
-        </li>
-        <li>
-          <p>Trophies won show up in the profile to give players bragging rights. An empty trophy cabinet has a dusty, sad feel to it to motivate players to go out and win some tournaments.</p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- introduction -->
-    <section id="tournaments-introduction">
-      <h3>Introducing tournaments</h3>
-      <p class="article-text">It was not enough to just design the feature well, it also had to be introduced to the audience appropriately. A few things I designed keeping that in mind:</p>
-    </section>
-    <figure id="tournaments-introduction-image">
-      <img src="../images/kapow-tournaments/tournaments-intro.png" alt="">
-      <figcaption>Updated navigation, live curtain and a one-time modal</figcaption>
-    </figure>
 
     <!-- impact  =============================================================== -->
     <section id="tournaments-impact">
       <h2>The Impact</h2>
-      <p class="article-text">Tournaments were a big hit with the audience! Along with leaderboards, they increased retention by ~12% and also boosted engagement statistics
-      </p>
-      <p class="article-text">Certain themed grand tournaments especially garnered huge participation. eg. the football world cup predictor tournament saw more than 50k people participating with almost half playing daily.
-      </p>
+      <p class="article-text">Tournaments were a big hit with the audience! Engagement and retention numbers improved and there were positive comments from the community on social media as well.<br><br>Certain themed grand tournaments especially garnered huge participation. eg. the football world cup predictor tournament saw more than 50k people participating with almost half playing daily.</p>
     </section>
 
     <!-- the team ============================================================================ -->
@@ -231,21 +129,21 @@
 
     <!-- links to other projects-->
     <h2 id="more-projects">More Projects</h2>
+    <a href="../kapow/kapow-app-mvp.html" id="more-kapow-v1" class="project-group">
+      <div>
+        <img src="../images/kapow-v1-title.png" alt="Kapow version 1">
+        <div class="card-content">
+          <h3>Kapow gaming app</h3>
+          <p>A social gaming platform catering to casual gamers on mobile devices.</p>
+        </div>
+      </div>
+    </a>
     <a href="../zeta/zeta-lta.html" id="more-zeta-lta" class="project-group">
       <div>
         <img src="../images/zeta-lta-title.png" alt="Zeta LTA Claims">
         <div class="card-content">
           <h3>Leave travel allowance</h3>
           <p>India's first digital product to claim tax benefits eligible under the leave travel allowance guidelines.</p>
-        </div>
-      </div>
-    </a>
-    <a href="../kapow/kapow-app-mvp.html" id="more-kapow-v1" class="project-group">
-      <div>
-        <img src="../images/kapow-v1-title.png" alt="Kapow version 1">
-        <div class="card-content">
-          <h3>Kapow app v1</h3>
-          <p>A social gaming platform catering to casual gamers on mobile devices.</p>
         </div>
       </div>
     </a>

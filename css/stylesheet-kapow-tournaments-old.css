@@ -1,0 +1,138 @@
+/* kapow mvp grid placement rules======================================================================== */
+
+/* leaderboards */
+#tournaments-why {
+  grid-column: 2/12;
+  grid-row: 4;
+}
+#tournaments-leaderboards-image-1 {
+  grid-column: 3/7;
+  grid-row: 5;
+}
+#tournaments-leaderboards-image-2 {
+  grid-column: 7/11;
+  grid-row: 5;
+}
+#tournaments-leaderboards-postrelease {
+  grid-column: 2/12;
+  grid-row: 6;
+}
+
+/* designing */
+#tournaments-designing {
+  grid-column: 2/12;
+  grid-row: 7;
+}
+#tournaments-designing-image-1 {
+  grid-column: 1/4;
+  grid-row: 8;
+}
+#tournaments-designing-image-2 {
+  grid-column: 4/7;
+  grid-row: 8;
+}
+#tournaments-designing-image-3 {
+  grid-column: 7/10;
+  grid-row: 8;
+}
+#tournaments-designing-image-4 {
+  grid-column: 10/13;
+  grid-row: 8;
+}
+
+/* impact */
+#tournaments-impact {
+  grid-column: 2/12;
+  grid-row: 9;
+}
+
+/* team */
+#kapow-team {
+  grid-column: 2/12;
+  grid-row: 10;
+}
+
+/* links to other projects */
+#more-projects {
+  grid-column: 2/12;
+  grid-row: 11;
+}
+#more-kapow-v1 {
+  grid-column: 2/7;
+  grid-row: 12;
+}
+#more-zeta-lta {
+  grid-column: 7/12;
+  grid-row: 12;
+}
+
+
+/* mobile layout =================================================================== */
+@media (max-width: 640px) {
+
+  /* section 1: audience */
+  #tournaments-why {
+    grid-column: 1/7;
+    grid-row: 4;
+  }
+  #tournaments-leaderboards-image-1 {
+    grid-column: 1/4;
+    grid-row: 5;
+  }
+  #tournaments-leaderboards-image-2 {
+    grid-column: 4/7;
+    grid-row: 5;
+  }
+  #tournaments-leaderboards-postrelease {
+    grid-column: 1/7;
+    grid-row: 6;
+  }
+
+  /* designing */
+  #tournaments-designing {
+    grid-column: 1/7;
+    grid-row: 7;
+  }
+  #tournaments-designing-image-1 {
+    grid-column: 1/4;
+    grid-row: 8;
+  }
+  #tournaments-designing-image-2 {
+    grid-column: 4/7;
+    grid-row: 8;
+  }
+  #tournaments-designing-image-3 {
+    grid-column: 1/4;
+    grid-row: 9;
+  }
+  #tournaments-designing-image-4 {
+    grid-column: 4/7;
+    grid-row: 9;
+  }
+
+  /* impact */
+  #tournaments-impact {
+    grid-column: 1/7;
+    grid-row: 10;
+  }
+
+  /* team */
+  #kapow-team {
+    grid-column: 1/7;
+    grid-row: 11;
+  }
+
+  /* links to other projects */
+  #more-projects {
+    grid-column: 1/7;
+    grid-row: 12;
+  }
+  #more-kapow-v1 {
+    grid-column: 1/7;
+    grid-row: 13;
+  }
+  #more-zeta-lta {
+    grid-column: 1/7;
+    grid-row: 14;
+  }
+}
