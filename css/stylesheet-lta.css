@@ -155,7 +155,7 @@
   grid-column: 2/12;
   grid-row: 22;
 }
-#more-kapow-v1 {
+#more-kapow-tournaments {
   grid-column: 2/7;
   grid-row: 23;
 }
@@ -326,7 +326,7 @@
     grid-column: 1/7;
     grid-row: 28;
   }
-  #more-kapow-v1 {
+  #more-kapow-tournaments {
     grid-column: 1/7;
     grid-row: 29;
   }
